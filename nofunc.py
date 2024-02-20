@@ -10,7 +10,7 @@ import numpy as np
 
 algorithms = ["KNN", "Naive Bayes", "Random Forest"]
 upload_file = st.sidebar.file_uploader("Upload dataset", type=['csv'])
-st.sidebar.markdown("[Example dataset](https://streamlit.io/gallery)")
+st.sidebar.markdown("[Example dataset](https://drive.google.com/file/d/17BwiyPLPP3ALSnaUicUaV1p_9YiGLzrs/view?usp=drive_link)")
 
 st.sidebar.title("Select the Algorithm")
 selected_algorithm_1 = st.sidebar.selectbox("Algorithm 1", algorithms)
